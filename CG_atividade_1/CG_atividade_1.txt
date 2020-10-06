@@ -1,0 +1,15 @@
+Para esta atividade utilizei o Virtual Box 6.1.1.
+Baixei as bibliotecas necessárias na seguinte ordem:
+
+$sudo apt-get install libgll-mesa-dev
+$sudo apt-get install libglu1-mesa-dev
+$sudo apt-get install libglew-dev libsdl2-dev libsdl2-image-dev libglm-dev libfreetype6-dev
+$sudo apt-get install libglu1mesa-dev freeglut3-dev mesa-common-dev
+
+Em seguida baixei o repositório modern_opengl, abri o promt na pasta e inseri o comando make.
+Apareceu um triângulo branco e o fundo preto. 
+Então percebi que o erro que dava era que a versão 3.3 do GLSL não era suportada. Utilizei o seguinte comando pra concertar isso:
+
+$MESA_GL_VERSION_OVERRID=3.3
+
+Então o triângulo apareceu colorido em um fundo preto.
