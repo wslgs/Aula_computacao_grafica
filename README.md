@@ -1,9 +1,10 @@
-# Computacão Gráfica
-Trabalhos da disciplina computação gráfica.
+## Disciplina
+Computação Gráfica.
 # Curso:
 Engenharia da Computação
-# Universidade Federal da Paraíba
-# Aluno:
+# Local de Ensino
+Universidade Federal da Paraíba
+# Aluno
 Weslley Gomes Dantas
-# Matrícula:
+# Matrícula
 2016021927
