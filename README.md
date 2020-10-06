@@ -1,10 +1,11 @@
-## Disciplina
-Computação Gráfica.
-# Curso:
+# Bem-vindo!
+### Disciplina
+Computação Gráfica
+### Curso
 Engenharia da Computação
-# Local de Ensino
+### Local de Ensino
 Universidade Federal da Paraíba
-# Aluno
+### Aluno
 Weslley Gomes Dantas
-# Matrícula
+### Matrícula
 2016021927
