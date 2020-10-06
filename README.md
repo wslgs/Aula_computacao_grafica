@@ -9,3 +9,5 @@ Universidade Federal da Paraíba
 Weslley Gomes Dantas
 ### Matrícula
 2016021927
+### Professor
+Christian Azambuja Pagot 
