@@ -22,6 +22,17 @@ void CloseMyGl(void) {
         free(fb_ptr);
 }
 
+double raiz (double numero)
+{
+	int i;
+	double r = numero;
+	
+	for (i = 0; i < 10; ++i)
+		r = r/2 + numero/(2*r);
+		
+	return (r);
+}
+
 void PutPixel(PIXEL p) {
 
 	// O inteiro 'a' servirá para encontrar a localização do ponto no array fb_ptr[n], não como uma matriz, mas como um conjunto de números que vai do ponto 0x0 = PrimeiroPíxel até o ponto IMAGE_WIDTHxIMAGE_HEIGHT = UltimoPíxel, contando com o fato que cada píxel tem 4 endereços no array determinando sua cor
@@ -45,7 +56,7 @@ void DrawLine(PIXEL p1, PIXEL p2) {
 	
 	int dx = p2.x - p1.x;		      // dx: Variação no eixo X
 	int dy = p2.y - p1.y;		      // dy: Variação no eixo Y
-	double h = sqrt (dx * dx + dy * dy); // h: Distância entre os pontos
+	double h = raiz (dx * dx + dy * dy); // h: Distância entre os pontos
 	
 	// Calculando a quantidade da variação de cada cor
 	step.r = (p2.r - p1.r) / h;
