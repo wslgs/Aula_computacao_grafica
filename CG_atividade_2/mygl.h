@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 
 #include "core.h"
 
@@ -33,6 +34,9 @@ void MyGlDraw(void); // Declaração da função que chamará as funções imple
 void PutPixel(PIXEL p); // Modifica um píxel
 void DrawLine(PIXEL p1, PIXEL p2); // Faz uma linha conectando dois píxels
 void DrawTriangle(PIXEL p1, PIXEL p2, PIXEL p3); // Faz um triângulo conectando três píxels
-double raiz (double numero); // Calcula a raiz quadrada
+// Adicionais
+void GradienteVertical(PIXEL p1, PIXEL p2, int e); // Faz um gradiente de cores na Vertical
+void GradienteHorizontal(PIXEL p1, PIXEL p2, int e);	// Faz um gradiente de cores na Horizontal
+void GradienteCruzado(PIXEL p1, PIXEL p2, PIXEL p3, PIXEL p4, int e); // Faz um gradiente cruzado de quatro cores
 
 #endif  // MYGL_H
