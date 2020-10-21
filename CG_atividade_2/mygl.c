@@ -26,6 +26,15 @@ void CloseMyGl(void)
         free(fb_ptr);
 }
 
+double raiz(double numero)
+{
+	double r = numero;
+	for(int i = 0; i < 10; ++i)
+		r = r/2 + numero/(2*r);
+	return(r);
+}
+
+
 void PutPixel(PIXEL p)
 {
 
