@@ -62,10 +62,14 @@ São elas:
 
 ![](https://cdna.artstation.com/p/assets/images/images/031/304/984/large/weslley-gomes-dantas-foto-5.jpg?1603224845)
 #### GradienteCruzado(...)
-``void GradienteCruzado(PIXEL p1, PIXEL p2, PIXEL p3, PIXEL p4, int e)``  
+``void GradienteCruzado(PIXEL p1, PIXEL p2, PIXEL p3, PIXEL p4, int e)`` onde o ``e = 5``. 
 
 ![](https://cdna.artstation.com/p/assets/images/images/031/304/988/large/weslley-gomes-dantas-foto-6.jpg?1603224848)
 
 Os píxels se sobrescrevem conforme a ordem que são colocados. Dessa maneira chamei a função ``void GradienteHorizontal(PIXEL p1, PIXEL p2, int e)`` e a função ``void DrawTriangle(PIXEL p1, PIXEL p2)``, consecutivamente, e obtive este resultado:  
 
-![](https://cdnb.artstation.com/p/assets/images/images/031/304/989/large/weslley-gomes-dantas-foto-7.jpg?1603224851)
+![](https://cdnb.artstation.com/p/assets/images/images/031/304/989/large/weslley-gomes-dantas-foto-7.jpg?1603224851)  
+
+Fiz o upload das fotos para a plataforma *ArtStation* para poder utilizar no README.md. Elas podem ser encontradas no seguinte link:  
+[ArtStation - CG](https://www.artstation.com/artwork/ZGJ94G)  
+> Ativididade feita com base nas aulas do Youtube, fornecidas pelo professor Christian Azambuja Pagot e conteúdos publicados na plataforma do SIGAA.
